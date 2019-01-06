@@ -12,6 +12,7 @@
 		E11E2F5820E6D6DC00458FCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11E2F5620E6D6DC00458FCC /* Main.storyboard */; };
 		E11E2F5A20E6D6DE00458FCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E11E2F5920E6D6DE00458FCC /* Assets.xcassets */; };
 		E11E2F5D20E6D6DE00458FCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E11E2F5B20E6D6DE00458FCC /* LaunchScreen.storyboard */; };
+		E11E2F6720E6DFA200458FCC /* RingGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11E2F6620E6DFA200458FCC /* RingGraphView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E11E2F5920E6D6DE00458FCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E11E2F5C20E6D6DE00458FCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E11E2F5E20E6D6DE00458FCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E11E2F6620E6DFA200458FCC /* RingGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingGraphView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				E11E2F5920E6D6DE00458FCC /* Assets.xcassets */,
 				E11E2F5B20E6D6DE00458FCC /* LaunchScreen.storyboard */,
 				E11E2F5E20E6D6DE00458FCC /* Info.plist */,
+				E11E2F6620E6DFA200458FCC /* RingGraphView.swift */,
 			);
 			path = RingGraph;
 			sourceTree = "<group>";
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					E11E2F4E20E6D6DC00458FCC = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -136,6 +140,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E11E2F5520E6D6DC00458FCC /* ViewController.swift in Sources */,
+				E11E2F6720E6DFA200458FCC /* RingGraphView.swift in Sources */,
 				E11E2F5320E6D6DC00458FCC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -281,16 +286,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W85GJYFB35;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RingGraph/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.RingGraph;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -299,16 +305,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = W85GJYFB35;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = RingGraph/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.RingGraph;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
